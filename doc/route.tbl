@@ -1,0 +1,18 @@
+# so koennte eine Routing-Tabelle aussehen
+
+# Struktur:
+#  zieladresse:interface
+
+#  sprich, Paket mit zieladresse wird an interface weitergeleitet
+# zieladresse: Netzwerkadresse des Ziel-Rechners
+# interface: nummer des Netzwerkinterfaces mit 1 beginnend
+# (Workstation besitzen ueblicherweise nur ein Interface)
+#
+# zieladresse 0 wird als Standardroute verwendet
+#
+# So koennte zum Beispiel die Routing-Tabelle einer
+# Workstation aussehen
+1:1
+2:1
+6:1
+0:1

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+export PYTHONPATH=".."
+python hub1.py

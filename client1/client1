@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#export PYTHONPATH="/Users/sommer/work/uni/texte/unterricht/vorlesungen/rk/grundlagen_der_rechnerkommunikation/ws06/quellen"
+export PYTHONPATH=".."
+python client.py $1 
